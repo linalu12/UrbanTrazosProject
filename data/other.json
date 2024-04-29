@@ -1,0 +1,29 @@
+[{
+    "objectID": 438754,
+    "objectName": "Painting",
+    "title": "Madonna and Child",
+    "artist": "Duccio di Buoninsegna",
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP142735.jpg"
+},
+{
+    "objectID": 436105,
+    "objectName": "Painting",
+    "title": "The Death of Socractes",
+    "artist": "Jacques-Louis David",
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP-13139-001.jpg"
+},
+{
+    "objectID": 437245,
+    "objectName": "Painting",
+    "title": "Modern Rome",
+    "artist": "Giovanni Paolo Panini",
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT1403.jpg"
+},
+{
+    "objectID": 342342,
+    "objectName": "Drawing",
+    "title": "Ruins of a Basilica or Mausoleum",
+    "artistDisplayName": "Giovanni Paolo Panini",
+    "primaryImage": "https://images.metmuseum.org/CRDImages/dp/original/DP810956.jpg"
+}
+]

@@ -1,0 +1,219 @@
+/* ---------whole doc--------------------------- */
+:root{
+    --logoblue: #1d285b;
+}
+
+*{
+    font-family:'Courier New', Courier, monospace;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* -----------header-------------------------- */
+header{
+    background-color: white;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    margin-left: 20px;
+    margin-bottom:15px;
+    margin-top:2px;
+    width: 90px;
+    height: 90px;  
+    display:flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+header p{
+    margin-left: 10rem;
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: right;
+    list-style-type: none;
+}
+
+nav li{
+    padding: 1rem;
+    font-size: 22px;
+    color: black;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: white;
+    background: var(--logoblue);
+}
+
+nav li:hover{
+    background: var(--logoblue);
+    color: white;
+}
+
+nav li:link{
+    text-decoration: none;
+    color:black;
+}
+
+.dropdown{
+    position: relative;
+    display:list-item;
+}
+
+.dd-menu{
+    display:none;
+    position: absolute;
+    max-width: 100px;
+}
+
+.dd-menu li{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    padding: 12px 6px;
+    text-decoration: none;
+    display:flex;
+}
+
+.dropdown:hover .dd-menu{
+    display:flex;
+}.dropdown{
+    position: relative;
+    display:list-item;
+}
+
+.dd-menu{
+    display:none;
+    position: absolute;
+    max-width: 100px;
+}
+
+.dd-menu li{
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    padding: 12px 6px;
+    text-decoration: none;
+    display:flex;
+}
+
+.dropdown:hover .dd-menu{
+    display:flex;
+}
+/* ---------------body----------------------------- */
+
+.mainimage-cont{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+#main-image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.mainmid-cont{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.stmt-cont{
+    margin: 3rem;
+    width: 50%;
+    height: 630px;
+    background-color: var(--logoblue);
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+}
+
+#readmore-cont{
+    margin-top: 35px;
+}
+
+#readmore{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: none;
+    border: solid;
+    border-color:white;
+}
+
+#readmore:hover{
+    background-color:black;
+    border-color: black;
+    color:white;
+}
+
+.stmt-img{
+    margin-top: 45px;
+    margin-right: 50px;
+    width: 500px;
+    float: right;
+}
+
+#img2index{
+    width: 500px;
+    margin-right: 2rem;
+}
+/* ----------------footer-------------------------------- */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    margin-left: 120px;
+}
+
+.socialf{
+    color:white;
+    text-align: left;
+}
+
+
+
